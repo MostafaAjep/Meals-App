@@ -4,13 +4,17 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
+Technical Features & Functionalities:
+State Management: Implemented efficient state management using Provider (or another relevant state management solution).
+API Integration: Fetched and displayed international menu items using RESTful APIs with Dio.
+Filtering & Search: Implemented custom filtering logic for dietary preferences (gluten-free, lactose-free, vegan, etc.).
+Favorites Management: Created a local storage solution using Hive / SharedPreferences to save favorite meals.
+Recipe Details & Instructions: Displayed step-by-step cooking instructions with images.
+Dynamic UI & Animations: Added implicit and explicit animations for smooth user experience.
+Navigation: Used Named Routes / GoRouter for structured navigation.
+Localization & Multi-language Support: Implemented internationalization (i18n) for a multilingual user experience.
+Performance Optimization: Optimized lazy loading for images and pagination for large datasets.
+Responsive Design: Designed a mobile-friendly UI using Flutter’s MediaQuery and LayoutBuilder
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
